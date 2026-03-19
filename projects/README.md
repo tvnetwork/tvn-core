@@ -1,28 +1,18 @@
-# TVN Projects
+# Projects
 
-This directory tracks the active software projects, infrastructure components, and open-source tooling built and maintained by the TVN community.
+This directory contains active and proposed open-source projects built by the TVN community.
 
----
+## Available Projects
 
-## Active Projects
+*(Currently empty. Be the first to initiate a project.)*
 
-| Project Name | Description | Tech Stack | Status |
-| :--- | :--- | :--- | :--- |
-| **[Example API](./example-api)** | Core authentication and user management service. | Go, PostgreSQL, Redis | Active |
-| **[Builder CLI](./builder-cli)** | Command-line tool for scaffolding TVN compliant projects. | Rust | Beta |
+## How to Add a Project
 
-## Project Requirements
+To incubate a new project within the TVN ecosystem, follow these steps:
 
-Every project hosted or linked within TVN must adhere to the following baseline standards:
+1. **Create a Folder:** Add a new directory under `projects/` using a clean, hyphenated name (e.g., `projects/payment-gateway`).
+2. **Add a README.md:** Inside your new folder, initialize a `README.md` file.
+3. **Define the Idea:** Clearly document the project objective, the technical stack, the core problem it solves, and its current status.
+4. **Invite Collaborators:** List the specific technical skills required and provide instructions on how other developers can contribute to your architecture.
 
-1. **Clear Documentation:** Every project must have its own `README.md` explaining local setup, architecture, and environment variables.
-2. **Containerization:** Projects should include a `Dockerfile` and `docker-compose.yml` for reproducible local environments.
-3. **CI/CD:** Basic GitHub Actions workflows for linting and testing must be present.
-4. **Licensing:** All code must be open-source (MIT or Apache 2.0 preferred).
-
-## Adding a Project
-
-To list your project here:
-1. Ensure your repository meets the **Project Requirements**.
-2. Open a Pull Request modifying the `Active Projects` table above.
-3. Include a link to your repository and a brief architectural overview in your PR description.
+Submit your new project folder via a Pull Request for review.

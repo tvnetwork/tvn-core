@@ -1,48 +1,19 @@
-# Contributing to TVN
+# Contributing
 
-We welcome contributions from all builders in the network. To maintain high code quality and clear history, please adhere to the following guidelines.
+We prioritize building over theory. Follow this standard process to contribute to the TVN Core repository.
 
----
+## Contribution Process
 
-## Development Process
+1. **Fork the Repository:** Create a personal fork of `tvn-core`.
+2. **Branch:** Create a dedicated branch for your work. Use descriptive prefixes (e.g., `feat/add-auth`, `fix/db-connection`, `docs/update-readme`).
+3. **Commit:** Write clear, concise commit messages detailing what changed and why.
+4. **Push:** Push your branch to your remote fork.
+5. **Pull Request:** Open a PR against the `main` branch of the upstream `tvn-core` repository.
 
-1. **Find an Issue:** Look through the issue tracker for bugs, feature requests, or project proposals.
-2. **Assign Yourself:** Comment on the issue to let others know you are working on it.
-3. **Branch Naming:** Use structural branch names.
-   - `feat/add-payment-gateway`
-   - `fix/auth-middleware-bug`
-   - `docs/update-api-spec`
+## Guidelines
 
-## Commit Standards
+- **Keep it practical:** Ensure your code or documentation serves a clear, functional purpose.
+- **Review existing work:** Before starting a large feature, check the `projects/` directory or open an issue to confirm alignment.
+- **Verify changes:** Ensure your code runs locally and that your markdown formatting is clean before submitting a PR.
 
-We use [Conventional Commits](https://www.conventionalcommits.org/). Your commit messages must follow this structure:
-
-```text
-<type>[optional scope]: <description>
-
-[optional body]
-```
-
-**Allowed Types:**
-- `feat:` A new feature
-- `fix:` A bug fix
-- `docs:` Documentation only changes
-- `style:` Formatting, missing semi-colons, etc.
-- `refactor:` A code change that neither fixes a bug nor adds a feature
-- `test:` Adding missing tests or correcting existing tests
-- `chore:` Changes to the build process or auxiliary tools
-
-## Pull Request Guidelines
-
-- **Keep it focused:** Submit one PR per feature or fix. Do not bundle unrelated changes.
-- **Pass checks:** Ensure all CI/CD pipelines, tests, and linters pass before requesting a review.
-- **Provide context:** Use the standard PR template. Explain *why* the change is necessary, not just *what* it does.
-- **Request review:** Tag code owners or relevant builders for a review.
-
-## Proposing New Projects
-
-If you want to introduce a new open-source project to the TVN ecosystem, open a **Project Proposal Issue**. Include:
-- System architecture overview
-- Tech stack
-- Problem statement
-- Immediate engineering needs
+Maintainers will review your pull request, request changes if necessary, and merge upon approval.
