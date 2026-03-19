@@ -1,0 +1,3 @@
+ALTER TABLE public.books ADD COLUMN IF NOT EXISTS selar_link TEXT;
+ALTER TABLE public.books ADD COLUMN IF NOT EXISTS is_draft BOOLEAN DEFAULT false;
+ALTER TABLE public.blog_posts ADD COLUMN IF NOT EXISTS is_draft BOOLEAN DEFAULT false;
