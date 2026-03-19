@@ -1,66 +1,39 @@
-# Tech Visionaries Network (TVN)
+# TVN Core
 
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](CONTRIBUTING.md)
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg?style=flat-square)](LICENSE)
+Africa's Tech Builders Network. A collaborative ecosystem for developers, innovators, and builders to create real-world technology.
 
-**Africa’s Tech Builders Network.**
+## Start Here
 
-TVN is a collaborative ecosystem of software engineers, product designers, and technical founders. We focus on writing code, shipping products, and building infrastructure that solves real-world problems.
+TVN is a builder workspace. This repository is the central hub for our open-source collaboration, project development, and technical resource sharing.
 
----
+**What it is:** A structured environment to incubate ideas, write code, and collaborate with other African developers.
+**Who it is for:** Engineers, developers, and tech creators focused on shipping functional, scalable applications.
+**Immediate Action:** Review this document, understand the repository structure, and navigate to the `projects/` directory to join an active build or propose your own.
 
-## Vision
+### The Flow
 
-To establish the most highly-skilled, execution-oriented network of technical builders in Africa, driving innovation through open-source collaboration and applied engineering.
-
-## Who This Is For
-
-- **Software Engineers:** Backend, frontend, mobile, systems, and data engineers.
-- **Technical Founders:** Builders actively developing technical products.
-- **System Architects & DevOps:** Professionals focused on infrastructure and scalability.
-- **Open Source Contributors:** Developers looking to contribute to high-impact projects.
-
----
+1. **Join:** Read the code of conduct and contribution guidelines.
+2. **Explore:** Browse active projects, member directories, and technical resources.
+3. **Build:** Fork the repository, set up your local workspace, and write code.
+4. **Contribute:** Submit a pull request with your commits or new project proposals.
 
 ## Repository Structure
 
-This repository acts as the central hub for the TVN ecosystem.
-
-| Directory | Purpose |
-| :--- | :--- |
-| [`/projects`](./projects/README.md) | Active open-source projects, bounties, and collaborative builds. |
-| [`/resources`](./resources/README.md) | Curated developer tools, APIs, infrastructure guides, and system design docs. |
-| [`/members`](./members/README.md) | The TVN builder registry. Add your profile here to join the network. |
-
----
+- `/projects` — Active community projects and incubation space.
+- `/resources` — Shared technical documentation, tooling configurations, and architecture guides.
+- `/members` — Developer directory and contributor profiles.
 
 ## Getting Started
 
-To engage with the TVN repository, start by cloning it locally:
+Set up your local workspace to begin contributing:
 
 ```bash
-git clone https://github.com/TVN/core.git
-cd core
+git clone https://github.com/tech-visionaries-network/tvn-core.git
+cd tvn-core
 ```
 
-**Next Steps:**
-1. Read the [`CODE_OF_CONDUCT.md`](./CODE_OF_CONDUCT.md) to understand community standards.
-2. Navigate to [`/members`](./members/README.md) and submit a pull request to add yourself to the builder registry.
-3. Explore the [`/projects`](./projects/README.md) directory to find active codebases seeking contributions.
+Review [CONTRIBUTING.md](CONTRIBUTING.md) for standard practices on branching, commits, and pull requests.
 
----
+## Vision
 
-## Contribution Flow
-
-We maintain strict technical standards for all contributions. Please read [`CONTRIBUTING.md`](./CONTRIBUTING.md) for detailed guidelines.
-
-**Standard Workflow:**
-1. Fork the repository.
-2. Create a feature branch (`git checkout -b feature/your-feature-name`).
-3. Commit your changes using Conventional Commits.
-4. Push to the branch (`git push origin feature/your-feature-name`).
-5. Open a Pull Request against the `main` branch.
-
----
-
-**Tech Visionaries Network** &copy; 2024. Built by developers, for developers.
+To cultivate a high-signal, execution-focused network of African developers collaborating to build foundational technology, open-source tools, and scalable systems.
