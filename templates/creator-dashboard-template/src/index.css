@@ -1,0 +1,49 @@
+@import "tailwindcss";
+@plugin "@tailwindcss/typography";
+
+@theme {
+  --font-serif: "Lora", "Merriweather", serif;
+  --font-sans: "Inter", "Geist", "Poppins", sans-serif;
+
+  --color-primary: #8B6F47;
+  --color-secondary: #F5E6D3;
+  --color-accent: #D97457;
+  --color-deep-brown: #3E2723;
+  --color-soft-cream: #FBF7F0;
+  --color-taupe: #A89968;
+}
+
+@layer base {
+  body {
+    @apply bg-soft-cream text-deep-brown font-sans;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-serif;
+  }
+
+  /* Main navbar height (h-16 = 64px) */
+  :root {
+    --main-navbar-height: 64px;
+  }
+
+  /* Combined height of main navbar (64px) + admin navbar (48px) */
+  :root {
+    --admin-header-offset: 112px;
+  }
+}
+
+/* Utility classes for admin layout measurements */
+@layer utilities {
+  .top-main-sticky {
+    top: var(--main-navbar-height);
+  }
+  .min-h-admin-content {
+    min-height: calc(100vh - var(--admin-header-offset));
+  }
+  .h-admin-content {
+    height: calc(100vh - var(--admin-header-offset));
+  }
+  .top-admin-sticky {
+    top: var(--admin-header-offset);
+  }
+}
