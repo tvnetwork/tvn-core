@@ -12,3 +12,6 @@ The directory of Tech Visionaries Network contributors and builders.
 3. Submit a Pull Request.
 
 Keep profiles concise and professional.
+
+## Current Builders
+- [Heritage Oladoye](./heritage-oladoye.md)
